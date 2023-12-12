@@ -103,14 +103,14 @@ GIT SHOW: To show the files attached to commits.
 git show commit_id
 
 
-GIT STASH: used to hide all the un comitted files.
+GIT STASH: to hide the all un-comitted files.
 
-GIT PULL: used to get the latest code from Git Hub to git.
+GIT PULL: to get the latest code from Git Hub to git.
 Note: if the content in github and git is same it will not work.
 
 git pull origin master
 
-GIT FETCH: used to show the latest code from Git Hub to git.
+GIT FETCH: to show the latest code from Git Hub to git.
 git fetch origin master
 git fetch 
 
