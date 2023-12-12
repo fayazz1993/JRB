@@ -43,6 +43,7 @@ each developer will work on their own branch.
 At the end we will combine all branches together in GitHub.
 Default branch is Master.
 EX: main, feature, release, hotfix ----
+Note: without commit we cannot see the branch.
 
 git branch		: to list the branches
 git branch movies	: to create a new branch
@@ -81,16 +82,17 @@ PULL REQUEST: MERGING THE BRANCHES IN GITHUB
 
 GIT REVERT: To undo the merging blw two branches.
 
-GIT CLONE: TO copy remote repo to local.
+GIT CLONE: Copy the remote repository to local.
 git clone https://github.com/RAHAMSHAIK007/6pmnewpaytm.git
 
-GIT FORK: To copy repo from one GitHub account to another GitHub account.
+GIT FORK: Copy the repository from one GitHub account to other GitHub account.(should be public repo)
 
 NOTE: to do a fork or clone repo must be public.
 
 MERGE CONFLICTS:
 it will rise when we merge 2 different branches with same files.
 How to resolve: Manually 
+Conflict will occur whenever multiple people working the same file acreoss multiple branches.
 
 CHERRY PICK: it will merge  specific files from one branch to another branch based on commits.
 git cherry-pick commit_id
