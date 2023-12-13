@@ -39,9 +39,10 @@ create ci job -- > Build Triggers: GitHub hook trigger for GITScm polling -- > s
 
 Build executor means number of parallel builds we can run 
 
-Dashboard -- > Build executor status -- > Nodes -- > Built-In Node -- > Configure -- > Number of executors: 4 -- > save 
+Dashboard--> Build executor status -- > Nodes -- > Built-In Node -- > Configure -- > Number of executors: 4 -- > save 
 
 job -- > selecet -- > Execute concurrent builds if necessary -- > save and build for 5 times
+Build Steps-->invoke-top-level-maven-->clen package
 
 THROTTLE BUILD:
 
