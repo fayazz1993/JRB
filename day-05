@@ -28,6 +28,10 @@ STEP-4: MANAGE AND ASSIGN USERS
 manage roles -- > add -- > fresher & exp -- > fresher: overall read & exp: admin -- > save
 assign roles -- > add user -- > rajesh: fresher & ravi: exp -- > save
 
+Nexus Artifact:
+===============
+
+Nexus Artifact Uploader pluggin
 
 PIPELINE:
 pipeline {
