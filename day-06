@@ -1,4 +1,4 @@
-Automated: Deployment, Installation
+Automated: automates Deployment, automates s/w Installation
 Non-Automated: Server
 To perform end-to-end automation we can use Ansible.
 
