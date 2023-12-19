@@ -5,7 +5,7 @@ To perform end-to-end automation we can use Ansible.
 ANSIBLE:
 its a Configuration Management Tool.
 its a free and Opensource.
-Configuration: Hardware and Software 
+Configuration: Hardware and Software properties of a server.
 Management: Pkgs update, installing, remove ----
 it is used to automate the entire deployment process on multiple servers.
 We install Python on Ansible.
