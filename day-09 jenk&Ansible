@@ -64,7 +64,16 @@ PLAYBOOK:
 
 ===================================================================
 PROMETHEUS:
+for monitoring tools
 
+vim prometheus.sh
+   10  clear
+   11  ll
+   12  Install promethes and Grafana in superate ec2 server then paste the private ip's of nodes along with tag in the file   vim /etc/hosts
+   13  node private ip:9100 update in vim /etc/prometheus/prometheus.yml and then restart prometheus server  systemctl restart prometheus
+   14 Install node-exporter in worker nodes 
+   17  systemctl restart prometheus
+   18  systemctl status prometheus
 Prometheus is an open-source monitoring system that is especially well-suited for cloud-native environments, like Kubernetes. 
 It can monitor the performance of your applications and services.
 it will sends an alert you if there are any issues. 
