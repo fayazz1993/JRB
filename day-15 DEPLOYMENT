@@ -140,10 +140,9 @@ now user can be able to work on specific resources on specific namespace.
    24  kubectl describe po  | grep -i image
    25  kubectl edit deploy/movies
    26  kubectl describe po  | grep -i image
-   27  kubectl rollback deploy/movies
-   28  kubectl deploy --help
-   29  kubectl deploy -h
-   30  kubectl rollback -h
+   27  
+   29  
+   30  
    31  kubectl rollout history deploy/movies
    32  kubectl rollout undo deploy/movies
    33  kubectl describe po  | grep -i image
