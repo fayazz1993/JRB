@@ -140,9 +140,6 @@ now user can be able to work on specific resources on specific namespace.
    24  kubectl describe po  | grep -i image
    25  kubectl edit deploy/movies
    26  kubectl describe po  | grep -i image
-   27  
-   29  
-   30  
    31  kubectl rollout history deploy/movies
    32  kubectl rollout undo deploy/movies
    33  kubectl describe po  | grep -i image
@@ -171,7 +168,6 @@ now user can be able to work on specific resources on specific namespace.
    56  kubectl get po
    57  kubectl scale deploy/movies --replicas=5
    58  cat abc.yml
-   59  
    60  kubectl get po -A
    61  kubectl top po
    62  kubectl top po -A
@@ -207,7 +203,6 @@ now user can be able to work on specific resources on specific namespace.
    92  kubecolor run dev2 --image nginx
    93  kubecolor run dev3 --image nginx
    94  kubecolor get po
-   95  
    96  kubecolor delete po --all
    97  kubecolor delete deploy --all
    98  kubecolor config set-context --current --namespace=dev
@@ -221,7 +216,6 @@ now user can be able to work on specific resources on specific namespace.
   106  kubecolor config set-context --current --namespace=default
   107  kubecolor get po
   108  kubecolor get po -n dev
-  109  kubecolor dev po dev1 -n dev
   110  kubecolor delete po dev1 -n dev
   111  kubecolor get ns
   112  kubecolor delete ns dev
