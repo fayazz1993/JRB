@@ -68,7 +68,7 @@ Installing Minikube is simple compared to other tools.
 NOTE: But we dont implement this in real-time Prod
 
 REQUIREMENTS:
-
+UBUNTU
 2 CPUs or more
 2GB of free memory
 20GB of free disk space
