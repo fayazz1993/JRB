@@ -207,7 +207,7 @@ now user can be able to work on specific resources on specific namespace.
    92  kubecolor run dev2 --image nginx
    93  kubecolor run dev3 --image nginx
    94  kubecolor get po
-   95  kubecolor delete --all
+   95  
    96  kubecolor delete po --all
    97  kubecolor delete deploy --all
    98  kubecolor config set-context --current --namespace=dev
