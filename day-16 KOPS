@@ -1,6 +1,6 @@
 KOPS:
 INFRASTRUCTURE: Resources used to run our application on cloud.
-EX: Ec2, VPC, ALB, -------------
+EX: Ec2, VPC, ALB, ------------- 
 
 
 Minikube -- > single node cluster
