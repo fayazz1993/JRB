@@ -171,7 +171,7 @@ now user can be able to work on specific resources on specific namespace.
    56  kubectl get po
    57  kubectl scale deploy/movies --replicas=5
    58  cat abc.yml
-   59  kubectl get po --all
+   59  
    60  kubectl get po -A
    61  kubectl top po
    62  kubectl top po -A
