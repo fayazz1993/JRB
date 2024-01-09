@@ -39,7 +39,7 @@ spec:
   ports:
     - port: 80
 
-DRAWBACK:
+DRAWBACK: 
 We cannot use app outside.
 
 2. NODEPORT: It will expose our application in a particular port.
