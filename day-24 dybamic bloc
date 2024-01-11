@@ -1,5 +1,31 @@
 FOR_EACH: 
 
+provider "aws" {
+}
+
+variable "instances" {
+  type = map(object({
+    ami           = string
+    instance_type = string
+    name          = string
+  }))
+  default = {
+    web-server   = { ami = "ami-04beabd6a4fb6ab6f", instance_type = "t2.micro", name = "Web Server" }
+    app-server   = { ami = "ami-0123456789abcdef0", instance_type = "t3.small", name = "App Server" }
+    db-server    = { ami = "ami-fedcba98765432100", instance_type = "t3.medium", name = "Database Server" }
+  }
+}
+
+resource "aws_instance" "two" {
+  for_each = var.instances
+
+  ami           = each.value.ami
+  instance_type = each.value.instance_type
+  tags = {
+    Name = each.value.name
+  }
+}
+
 
 DYNAMIC BLOCK: it is used to reduce the length of code and used for reusabilty of code in loop.
 
