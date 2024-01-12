@@ -40,7 +40,9 @@ variable "instance_name" {
 }
 
 TERRAFORM REFRESH:
-it will store the values when compared with real world infrastructure when we modified the terraform values in real world infrastructure it does not replicate to state file so we need to run the command called Terraform Refresh it will refresh the state file while refreshing state file it will compare original values with the state file values if the original values are modified or change it it will be replicated to state file after running terraform refresh command.
+it will store the values when compared with real world infrastructure when we modified the terraform values in real world infrastructure 
+it does not replicate to state file so we need to run the command called Terraform Refresh it will refresh the state file while refreshing state file 
+it will compare original values with the state file values if the original values are modified or change it it will be replicated to state file after running terraform refresh command.
 
 
 TERRAFORM TFVARS:
