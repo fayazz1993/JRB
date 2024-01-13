@@ -64,7 +64,6 @@ cd terraform
 
 
 
-
 TERRAFORM COMMANDS:
 terraform init	: initalize the provider plugins on backend
 it will store information of plugins in .terrafrom folder
