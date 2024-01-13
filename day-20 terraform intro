@@ -38,16 +38,16 @@ ADVANTAGES:
 4. Avoiding mistakes
 5. Dry run
 
-
-CFT = AWS
-ARM = AZURE
-GDE = GOOGLE
+If not terraform there will have some Cloud Services:
+CFT = AWS   cloud formation template (if we want to create infra on AWS we can see CFT)
+ARM = AZURE      
+GDE = GOOGLE     google deploy engine
 
 TERRAFROM = ALL CLOUDS
 
-Terraform can be used for on-premises infrastructure. 
-Whilst Terraform is known for being cloud-agnostic and supporting public clouds such as AWS, Azure, GCP, it can also be used for on-prem infrastructure including VMware vSphere and OpenStack.
-
+Terraform can be used for on-premises infrastructure also. 
+Terraform is also known as cloud-agnostic and supporting public clouds such as AWS, Azure, GCP, it can also be used for on-prem infrastructure including VMware vSphere and OpenStack.
+cloud-agnostic means it is not fix for one cloud and it can work with multiple- cloud
 INSTALLING TERRAFORM:
 
 sudo yum install -y yum-utils shadow-utils
@@ -69,7 +69,7 @@ TERRAFORM COMMANDS:
 terraform init	: initalize the provider plugins on backend
 it will store information of plugins in .terrafrom folder
 
-terraform plan	: to create an execution plan
+terraform plan	: to create an execution plan means it takes the inputs given by the user and plans the resource creation if usr doesnt give any inputs then it will takes default values.
 it will take inputs given by users and plan the resource creation
 if we haven't given inputs for few feilds it will take default values.
 
@@ -77,7 +77,8 @@ if we haven't given inputs for few feilds it will take default values.
 terrafrom apply : to create resources
 as per the given inputs on configuration file it will create the resources in real word.
 
-
+VALIDATE: it will check only syntax
+PLAN: manam icche values check chestundi
 terrafrom destroy : to delete resources
 
 
@@ -91,6 +92,7 @@ ami = "ami-0b41f7055516b991a"
 instance_type = "t2.micro"
 }
 
+terraform init :Install the provider pluggin and this plugin came from Harchicorp Registy
 terraform apply --auto-approve
 terraform destroy --auto-approve
 
