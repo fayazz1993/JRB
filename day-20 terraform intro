@@ -35,7 +35,7 @@ ADVANTAGES:
 1. Reusable 
 2. Time saving
 3. Automation
-4. Avoiding mistakes
+4. Avoiding mistakes  
 5. Dry run
 
 If not terraform there will have some Cloud Services:
@@ -68,12 +68,12 @@ TERRAFORM COMMANDS:
 terraform init	: initalize the provider plugins on backend
 it will store information of plugins in .terrafrom folder
 
-terraform plan	: to create an execution plan means it takes the inputs given by the user and plans the resource creation if usr doesnt give any inputs then it will takes default values.
+TERRAFORN PLAN	: to create an execution plan means it takes the inputs given by the user and plans the resource creation if usr doesnt give any inputs then it will takes default values.
 it will take inputs given by users and plan the resource creation
 if we haven't given inputs for few feilds it will take default values.
 
 
-terrafrom apply : to create resources
+TERRAFORM APPLY : to create resources
 as per the given inputs on configuration file it will create the resources in real word.
 
 VALIDATE: it will check only syntax
