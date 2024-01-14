@@ -13,7 +13,7 @@ Manual:
 Automate -- > Terraform -- > code -- > hcl (Hashicorp configuration languge)
 
 
-
+What is terraform?
 its a tool used to make infrastructure automation.
 its a free and open source.
 its platform independent.
