@@ -97,7 +97,7 @@ terraform destroy --auto-approve
 
 
 STATE FILE: used to store the resource information which is created by terraform
-to track the resource activities
+main purpose is to track the resource activities
 in real time entire resource info is on state file.
 we need to keep it safe & Secure
 if we lost this file we cant track the infra.
