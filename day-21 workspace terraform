@@ -1,5 +1,5 @@
 TERRAFORM VAR FILES:
-these files used to store variables seperately on terraform.
+terraform variable files used to store variables seperately on terraform.
 if values havent declared on main.tf terraform will search for variable.tf and takes values from that file.
 
 cat main.tf 
@@ -75,7 +75,7 @@ variable "instance_type" {
 variable "instance_name" {
 }
 
-cat dev.tfvar
+  cat dev.tfvar
 
 instance_count = 1
 
