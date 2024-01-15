@@ -68,7 +68,7 @@ TERRAFORM COMMANDS:
 terraform init	: initalize the provider plugins on backend
 it will store information of plugins in .terrafrom folder
 
-TERRAFORN PLAN	: to create an execution plan means it takes the inputs given by the user and plans the resource creation if usr doesnt give any inputs then it will takes default values.
+TERRAFORN PLAN	: it creates an execution plan MEANS it takes the inputs given by the user and plans the resource creation if usr doesnt give any inputs then it will takes default values.
 it will take inputs given by users and plan the resource creation
 if we haven't given inputs for few feilds it will take default values.
 
