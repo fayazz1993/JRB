@@ -1,4 +1,5 @@
-In Terraform alias & providers is used to match resource block with particular provider blocks the main use case of using terraform alias and providers is to create multiple resources on multiple regions with the help of single main.tf file.
+In Terraform alias & providers is used to match resource block with particular provider blocks
+the main use case of using terraform alias and providers is to create multiple resources on multiple regions with the help of single main.tf file.
 
 provider "aws" {
   region = "us-east-1"
@@ -28,7 +29,8 @@ resource "aws_instance" "two" {
   }
 }
 
-Terraform import: is used to import the resource configuration which we created manually by default terraform will wont track the resource that is created manually so to track the manual resources with the help of Terraform state file we can use the command called Terraform Import Command.
+Terraform import: is used to import the resource configuration which we created manually by default terraform will wont track the resource
+that is created manually so to track the manual resources with the help of Terraform state file we can use the command called Terraform Import Command.
 
 
 provider "aws" {
