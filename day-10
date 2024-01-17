@@ -30,6 +30,7 @@ ex: PUBG
 
 APP= PUBG & DEPENDECY = MAPS
 APP= CAKE & DEPENDECY = KNIFE
+APP= BIKE & DEPENDECY = KEYS 
 
 os level of virtualization.
 
