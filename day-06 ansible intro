@@ -137,7 +137,7 @@ EX-1:
 TO EXECUTE: ansible-playbook playbbok.yml
 
 Gather facts: it will get information of worker nodes
-its by default task performed by ansible.
+By default Ansible will perform this task.
 
 ok=total number of tasks include gather_facts 
 changed= no.of tasks successfully executed
