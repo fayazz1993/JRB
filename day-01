@@ -114,7 +114,7 @@ GIT FETCH: to show the LATEST CODE from Git Hub to git.
 git fetch origin master
 git fetch 
 
-.gitignore: used to ignore the files. here files cant be tracked.
+.gitignore: used to ignore the files which are untracked . here files cant be tracked.
 
 ===========================================================================================
 
