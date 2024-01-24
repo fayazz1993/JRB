@@ -1,3 +1,4 @@
+Though Jenkins we cannot deploy applications on mul servers But with Ansible we can Deploy Applications on 100's SErvers at a time.
 Automated: automates Deployment, automates s/w Installation
 Non-Automated: Server
 To perform end-to-end automation we can use Ansible.
