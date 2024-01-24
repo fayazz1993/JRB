@@ -120,7 +120,7 @@ sh jenkins.sh
 
 VARIABLES:
 it is used to store values that are going to change frequently.
-ex: date, season -----
+ex: date, season ,Time-----
 
 1. USER DEFINED VARIABLES: these are defined by user
 a. Local Variable: Variable will work inside of job.
