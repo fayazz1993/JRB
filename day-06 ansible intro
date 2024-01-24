@@ -19,7 +19,7 @@ it is platform-independent & will work on all linux flavours.
 
 
 ARCHITECTURE:
-PLAYBOOK: its a file which consist of code
+PLAYBOOK: its a file which is consist of code used to execute multiple modules.
 INVENTORY: its a file which consist ip of nodes
 SSH: used to connect with nodes
 Ansible is Agent less.
@@ -98,7 +98,7 @@ ex: httpd*, git*
 
 
 3. PLAYBOOKS:
-playbooks used to execute multiple modules.
+playbooks used to execute multiple modules.its a file which is consist of code used to execute multiple modules
 we can reuse the playbook multiple times.
 in real time we use a playbook to automate our work.
 for deployment, pkg installation ----
