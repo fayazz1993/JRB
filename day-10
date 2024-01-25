@@ -15,7 +15,7 @@ os will be on images.
 (SERVER=AMI, CONTAINER=IMAGE)
 
 DOCKER: 
-Its a tool used to create, run & deploy applications on containers.
+Its a tool used to create images, run & deploy applications on containers.
 Its an free & opensource tool.
 it is platform independent.
 used to create, run & deploy applications on containers.
