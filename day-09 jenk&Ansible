@@ -135,5 +135,5 @@ PORT: 3000
 
 NODE EXPORTER:
 Node Exporter Will collects the metrics of worker nodes
-in each worker node we need to install node exporter
+we need to install node exporter in each worker node
 Port: 9100
