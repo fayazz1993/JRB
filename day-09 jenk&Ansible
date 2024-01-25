@@ -10,7 +10,7 @@ Install jenkins on ansible  server:
 ANSIBLE JENKINSINTEGRATION:
 
 Download ansible plugin
-Manage Jenkins -- > Tools -- > Ansible -- > Name: ansible Path: /usr/bin -- > save
+Configure Ansible Plugggin with Jenkins Manage Jenkins -- > Tools -- > Ansible -- > Name: ansible Path: /usr/bin -- > save
 Write Ci Pipeline to generate war file and add ansible like this
 Sample Step: Ansible playbook: 
 Ansible tool: ansible
