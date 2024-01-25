@@ -119,5 +119,21 @@ git fetch
 
 .gitignore: used to ignore the files which are untracked . here files cant be tracked.
 
+GITHUB:
+it is a central repo where we place soure code.
+we can access github from anywhere with internet.
+Purpose of GitHub:to store code we need to create account.
+
+note: it will not accept passwords, it will accept only tokens.
+token will be visible only once.
+account -- > settings -- > developer settings -- > PAT -- > classic -- > genererate -- > classic 
+
+create a repo
+run below command to connect with github:
+git remote add origin https://github.com/srinivasnaiduarja/paytm.git
+git push origin branch_name 
+username:
+password: token
+
 ===========================================================================================
 
