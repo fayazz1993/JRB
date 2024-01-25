@@ -134,6 +134,6 @@ pagerduty, slack and email to send notifications
 PORT: 3000
 
 NODE EXPORTER:
-collects metrics of worker nodes
+Node Exporter Will collects the metrics of worker nodes
 in each worker node we need to install node exporter
 Port: 9100
