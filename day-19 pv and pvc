@@ -8,7 +8,7 @@ When a pod requests storage via a PVC, K8S will search for a suitable PV to sati
 PV is bound to the PVC and the pod can use the storage. 
 If no suitable PV is found, K8S will either dynamically create a new one (if the storage class supports dynamic provisioning) or the PVC will remain unbound.
 
-pvc:
+pvc: persistance volume claim
 
 To use Pv we need to claim the volume using PVC.
 PVC request a PV with your desired specification (size, access, modes & speed etc) from k8s and onec a suitable PV is found it will bound to PVC
