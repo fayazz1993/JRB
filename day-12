@@ -37,7 +37,7 @@ docker service logs movies	: to see the logs
 docker service rm movies	: to delete the services.
 
 
-Note: if we delete a container it will recreate automatically itself.
+self healing: if we delete a container it will recreate automatically itself.
 it is called as self healing.
 
 
