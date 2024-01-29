@@ -1,4 +1,4 @@
-SERVICES:
+KUBERNATIVE SERVICES:
 
 SERVICE: It is used to expose the application in k8s.
 
