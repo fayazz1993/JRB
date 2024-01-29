@@ -24,7 +24,7 @@ docker node ls
 Note: individual containers are not going to replicate.
 if we create a service then only containers will be distributed.
 
-SERVICE: it's a way of exposing and managing multipe conatiners.
+DOCKER SERVICE: it's a way of exposing and managing multipe conatiners.
 
 docker service create --name movies --replicas 3 -p 81:80 abduljavvadkhan786/movies:latest
 docker service ls		: to list services
