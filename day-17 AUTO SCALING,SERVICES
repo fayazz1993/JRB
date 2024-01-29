@@ -3,7 +3,7 @@ KUBERNATIVE SERVICES:
 SERVICE: It is used to expose the application in k8s.
 
 TYPES:
-1. CLUSTERIP: It will work inside the cluster.
+1. CLUSTERIP: It will work inside the cluster only.
 it will not expose to outer world.
 
 apiVersion: apps/v1
