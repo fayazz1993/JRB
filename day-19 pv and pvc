@@ -3,7 +3,7 @@ pv:
 Persistent means always available.
 PVs are independent they can exist even if no pod is using them.
 pv is created by administrator(cka) or dynamically created by a storage class. 
-Once a PV is created, it can be bound to a Persistent Volume Claim (PVC), which is a request for storage by a pod.
+Once a PV is created, pv can be bound to a Persistent Volume Claim (PVC), which is a request for storage by a pod.
 When a pod requests a storage via a PVC, K8S will search for the suitable PV to satisfy the request. 
 PV is bound to the PVC and the pod can use the storage. 
 If no suitable PV is found, K8S will either dynamically create a new one (if the storage class supports dynamic provisioning) or the PVC will remain unbound.
