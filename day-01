@@ -56,6 +56,7 @@ git branch -m old new	: to rename a branch
 git branch -D movies	: to delete a branch
 
 GIT RESTORE: to restore the deleted files & used to untrack the tracked files.
+GIT REFLAG: To restore the deleted branches.
 git restore file1 : to get deleted file
 git restore --staged file1 : to untrack the tracked file
 
@@ -104,7 +105,7 @@ GIT LOGS: used to show the information of files, commits and metadata.
 
 GIT SHOW: To show the files attached to commits.
 git show commit_id
-
+GIT DIFF: To show updated content before commit
 
 GIT STASH: to hide the all un-comitted files.
 
