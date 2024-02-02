@@ -47,6 +47,7 @@ At the end we will combine all branches together in GitHub.
 Default branch is Master.
 EX: main, feature, release, hotfix ----
 Note: without commit we cannot see the branch.
+git checkout and git switch both are same but switch is updated command
 
 git branch		: to list the branches
 git branch movies	: to create a new branch
@@ -76,7 +77,7 @@ git merge movies
 
 GIT REBASE: it is used to merge the file blw two branches.
 git rebase recharge
-
+How to integrate one portion of code into another branch? Using git cherry-pick command
 MERGE VS REBASE:
 merge for public repos, rebase for private 
 merge stores history, rebase will not store the entire history
