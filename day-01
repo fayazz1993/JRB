@@ -125,7 +125,7 @@ Tell something about git token: Token is one time activity only
 Explain about README file: what ever we write on description when creating repo it will store in README file.
 Git rm: To remove tracked file from git.
 Git clean: To remove files which are untracked i.e,from working directory
-How do we create local repo: git init local
+How do we create local repo: git init localRepoName
 git reset: Getback fikles from staging area to working area
 
 
