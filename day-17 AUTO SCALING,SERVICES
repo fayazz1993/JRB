@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: rahamshaik/moviespaytm:latest
+        image: fayaz1993/paytmtrain:latest
         ports:
           - containerPort: 80
 ---
@@ -63,7 +63,7 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: rahamshaik/trainservice:latest
+        image: fayaz1993/paytmtrain:latest
         ports:
           - containerPort: 80
 ---
@@ -104,7 +104,7 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: rahamshaik/trainservice:latest
+        image: fayaz1993/paytmtrain:latest
         ports:
           - containerPort: 80
 ---
