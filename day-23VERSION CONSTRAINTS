@@ -31,6 +31,9 @@ resource "aws_instance" "two" {
 
 Terraform import: is used to import the resource configuration which we created manually by default terraform will wont track the resource that is created manually 
 so to track the manual resources with the help of Terraform state file we can use the command called Terraform Import Command.
+used to migrate the resource information to state file which is created manually.
+
+create a server manually.
 
 
 provider "aws" {
