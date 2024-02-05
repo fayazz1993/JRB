@@ -70,7 +70,7 @@ git remote add origin https://github.com/revathisiriki78/paytm.git
 git push origin movies
 username:
 password:
-
+What is meant by git merge, git fetch?
 GIT MERGE: it is used to merge the file blw two branches.
 git checkout master
 git merge movies
