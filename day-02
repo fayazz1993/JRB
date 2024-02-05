@@ -121,7 +121,7 @@ sh jenkins.sh
 
 
 VARIABLES:
-it is used to store values that are going to keep changing like time.
+it is used to store the values and keep changing like time.
 ex: date, season ,Time-----
 
 1. USER DEFINED VARIABLES: these are defined by user
