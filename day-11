@@ -26,7 +26,7 @@ docker rm $(docker ps -a -q) : to remove all containers
 
 
 DOCKER COMPOSE:
-It's a tool used to manage multiple containers in single host at a same time..
+It's a tool used to create multiple containers in single host at a same time..
 we can create, start, stop, and delete all containers together.
 we write container information in a file called a compose file.
 compose file is in YAML format.
