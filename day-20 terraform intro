@@ -73,7 +73,7 @@ it will take inputs given by users and plan the resource creation
 if we haven't given inputs for few feilds it will take default values.
 
 
-TERRAFORM APPLY : it isused to create resources as per the given inputs on configuration file it will create the resources in real word.
+TERRAFORM APPLY : it isused to 'create resources' as per the given inputs on configuration file it will create the resources in real word.
 
 VALIDATE: it will check only syntax
 PLAN: manam icche values check chestundi
