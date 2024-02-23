@@ -191,8 +191,8 @@ To list rs		:kubectl get rs/replicaset
 To show addtional info	:kubectl get rs -o wide
 To show complete info	:kubectl describe rs name-of-rs
 To delete the rs	:kubectl delete rs name-of-rs
-to get lables of pods 	: kubectl get pods -l app=swiggy
-TO scale rs		: kubectl scale rs/swiggy-rs --replicas=10 (LIFO)
+to get lables of pods 	: kubectl get pods -l app=paytm 
+TO scale rs		: kubectl scale rs/movies --replicas=10 (LIFO)
 
 LABLES: individual pods are difficult to manage 
 so we give a comman label to group them and work with them togenther
