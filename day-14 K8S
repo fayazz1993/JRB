@@ -37,7 +37,7 @@ MASTER:
 
 WORKER:
 
-1. KUBELET : its an agent (it will inform all activites to master)
+1. KUBELET : its an agent (it will inform all worker node activites to master)
 2. KUBEPROXY: it deals with nlw (ip, networks, ports)
 3. POD : group of conatiners (inside pod we have app)
 
