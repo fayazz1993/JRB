@@ -1,4 +1,4 @@
-
+kubectl api-resources
 DEPLOYMENT: 
 deploy -- > rs -- > pods
 we can update the application.
