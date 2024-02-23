@@ -89,7 +89,7 @@ NAMESPACES: ROOM
 
 Each namespace is isolated.
 if your are room-1 are you able to see room-2.
-we cant access the objects from one namespace to another namespace.
+we cant "access the objects" from one namespace to another namespace.
 
 
 TYPES:
