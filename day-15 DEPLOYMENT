@@ -40,6 +40,13 @@ kubectl history rollout deploy/movies-rs
 kubectl rollout undo deploy/movies-rs
 kubectl get po --watch
 
+kubectl edit rs/movies
+kubectl describe po
+kubectl edit deploy/movies
+kubectl describe po  | grep -i image
+kubectl rollout history deploy/movies
+kubectl rollout undo deploy/movies
+
 
 METRIC SERVER:
 
