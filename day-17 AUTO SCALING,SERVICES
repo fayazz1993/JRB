@@ -5,6 +5,9 @@ SERVICE: It is used to expose the application in k8s.
 TYPES: 3 types
 1. CLUSTERIP: It will work inside the cluster only.
 it will not expose to outer world.
+EX:1.If we hava DataBase server, for the server we cannot give access to all people.We can give only for Organization People i.e; inside cluster only we have to give access
+Whenever we create service then we get one-extra service because k8's will have one default ClusterIp service along with our service.
+
 
 apiVersion: apps/v1
 kind: Deployment
@@ -41,6 +44,13 @@ spec:
 
 DRAWBACK: 
 We cannot use app outside.
+
+
+1.Depends of cluster requirment and type of the node we will give alltraffic.Generally we dont give all traffic.
+2.Depends upon type of Server Security Group will change
+3.If it is application server then we should give port number 8080
+4.If it is DataBase server like PostGre then we should give portnumber 5432
+
 
 2. NODEPORT: It will expose our application in a particular port.
 Range: 30000 - 32767 (in sg we need to give all traffic)
@@ -119,6 +129,14 @@ spec:
   ports:
     - port: 80
       targetPort: 80
+
+
+EXTERNAL IP in LOAD BALANCER means LD DNS
+LOAD BALANCER will doesnot suport port numbers which is distributes the loads to servers
+EX: If we have 2 Nodes then Users accessing the server then LoadBalancer distribute the Load 
+    1.One User accessing Node1
+    2.Other User accessing Node2
+
 
 
 
