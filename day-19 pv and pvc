@@ -34,6 +34,9 @@ spec:
     volumeID: vol-07e5c6c3fe273239f
     fsType: ext4
 
+kubectl create -f pv.yml
+kubectl get pv
+
 pvc.yml
 
 apiVersion: v1
@@ -46,6 +49,9 @@ spec:
   resources:
     requests:
       storage: 10Gi
+
+kubectl create -f pvc.yml
+kubectl get pvc
 
 dep.yml
 
@@ -74,6 +80,9 @@ spec:
         - name: my-pv
           persistentVolumeClaim:
             claimName: my-pvc
+
+kubect get pv
+kubectl get pvc
 =====================================================
 
 
