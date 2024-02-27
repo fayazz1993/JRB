@@ -65,7 +65,7 @@ cd terraform
 
 
 TERRAFORM COMMANDS:
-terraform init	: initalize the provider plugins on backend
+terraform init	: initalize the provider plugins on backend. Without having plugins we cannot create resource(ec2,s3...)
 it will store information of plugins in .terrafrom folder
 
 TERRAFORN PLAN	: it creates an execution plan MEANS it takes the inputs given by the user and plans the resource creation if usr doesnt give any inputs then it will takes default values.
