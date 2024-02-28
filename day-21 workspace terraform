@@ -75,7 +75,7 @@ variable "instance_type" {
 variable "instance_name" {
 }
 
-  cat dev.tfvar
+ ## cat dev.tfvar
 
 instance_count = 1
 
@@ -85,7 +85,7 @@ instance_type = "t2.micro"
 
 instance_name = "dev-server"
 
-cat test.tfvar
+##cat test.tfvar
 
 instance_count = 2
 
@@ -187,7 +187,7 @@ HISTORY:
    59  cat test.tfvar
    60  terraform apply --auto-approve -var-file="test.tfvar"
    61  terraform apply --auto-approve -var-file="dev.tfvar"
-   62  terraform workspace list
+   62  terraform  
    63  terraform state list
    64  terraform destroy --auto-approve
    65  cat main.tf
