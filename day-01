@@ -146,4 +146,11 @@ username:
 password: token
 
 ===========================================================================================
+QUALITY GATES : CCollection of conditions, which are going to apply when we are executing solarqube report. 
+If all the conditions are going to pass, then it is going to mark as the passed. Otherwise it is going to mark as failure.
 
+Q).On what basis it is going to marked as PASSED or FAILED?
+A).B Based on quality gates, only we can marked as it is passed as failed.
+
+QUALITY PROFILES: It is nothing but a collection of rules which are going to use to execute the solarqube report.
+While executing sonarcube report, we are going to use set of rules. Those rules we are going to call as quality profiles.
