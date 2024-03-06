@@ -29,7 +29,7 @@ Git have total 3 stages.
 1. WORKING DIRECTORY:
 Working Directory is a folder where we write the code.
 In Working Directory we can't track the files.
-
+Git works on content base so we cannot track the empty folders.
 2. STAGING AREA:
 here we can track the files.
 its next version of your file.
