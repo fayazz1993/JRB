@@ -121,7 +121,7 @@ ENV		: to set env variables (inside container)
 ARGS		: to pass env variables (outside containers)
 EXPOSE		: to give port number
 
-EX1:
+EX1: Write a Dockerfile to install webserver and database server?
 Vim Dockerfile
 
 FROM ubuntu
@@ -133,7 +133,7 @@ To run: docker build -t raham:v1 .
 docker images
 docker run -it --name cont3 raham:v1 
 
-EX-2:
+EX-2: Write a Dockerfile to install 3-Tier Architecture? 
 
 FROM ubuntu
 RUN apt update -y
@@ -145,7 +145,7 @@ To run: docker build -t raham:v2 .
 docker images
 docker run -it --name cont4 raham:v2 
 
-EX-3:
+EX-3: Write a Dockerfile to install webserver, application server,database server,tree and maven?
 
 FROM ubuntu
 RUN apt update -y
@@ -159,7 +159,7 @@ To run: docker build -t raham:v3 .
 docker images
 docker run -it --name cont5 raham:v3
 
-EX-4:
+EX-4: Write a Dockerfile to install webserver,database server,tomcat and copy index.html file to tmp directory?
 
 FROM ubuntu
 RUN apt update -y
@@ -172,7 +172,7 @@ To run: docker build -t raham:v4 .
 docker images
 docker run -it --name cont6 raham:v4
 
-EX-5:
+EX-5: Write a Dockerfile to install webserver,database server,tomcat and copy index.html file to tmp directory and open the tmp directory and display author name?
 
 FROM ubuntu
 RUN apt update -y
@@ -183,7 +183,7 @@ ADD http://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar
 WORKDIR /tmp
 LABEL author rahamshaik
 
-EX-6:
+EX-6: Write a Dockerfile to install webserver,database server,tomcat and copy index.html file to tmp directory and open the tmp directory and display author name and open port number?
 
 FROM ubuntu
 RUN apt update -y
