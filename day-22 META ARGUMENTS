@@ -189,7 +189,7 @@ resource "aws_instance" "three" {
 }
 
 
-DEPENDS_ON: depends_on is meta-argument which is used to create dependency between resources and modules.
+DEPENDS_ON: depends_on is meta-argument which is used to create dependency between the resources or between the modules.
 
 provider "aws" {
   region = "us-east-1"
