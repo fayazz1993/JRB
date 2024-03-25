@@ -14,7 +14,7 @@ Automate -- > Terraform -- > code -- > hcl (Hashicorp configuration languge)
 
 
 WHAT  IS TERRAFORM ?
-Terraform is a tool used to make infrastructure automation.
+Terraform is IAAC tool used to make infrastructure automation.
 its a free and open source.
 Terraform is platform independent.
 it comes on the year 2014.
