@@ -19,8 +19,8 @@ it is platform-independent & will work on all linux flavours.
 
 
 ARCHITECTURE:
-PLAYBOOK: its a file which is consist of code used to execute multiple modules.
-INVENTORY: its a file which consist ip of nodes
+PLAYBOOK: Playbook a file which is consist of code which is used to execute multiple modules.
+INVENTORY FILE: Inventory file is a file which is used to 'stores the information of' worker nodes.
 SSH: used to connect with nodes
 Ansible is Agent less.
 
@@ -78,7 +78,7 @@ ansible all -a "yum remove git* maven* httpd* -y"
 
 
 2. MODULES:
-its a key-value pair.
+its a key-value pair and 'also called as' dictionary.
 modules are reusable.
 we can use different modules for differnt purposes.
 module flag is -m 
@@ -98,7 +98,7 @@ ex: httpd*, git*
 
 
 3. PLAYBOOKS:
-playbooks used to execute multiple modules.its a file which is consist of code used to execute multiple modules
+Playbook a file which is consist of code which is used to execute multiple modules.
 we can reuse the playbook multiple times.
 in real time we use a playbook to automate our work.
 for deployment, pkg installation ----
