@@ -198,7 +198,7 @@ MULTI SKIP TAGS: ansible-playbook playbbok.yml --skip-tags "c,d"
 
 sed -i 's/present/absent/; s/installing/uninstall/; s/git/git*/; s/http/httpd*/' raham.yml
 
-LOOPS: used to do work with less code and used for repetable
+LOOPS: to do multiple operations repetetively
 
 - hosts: all
   tasks:
