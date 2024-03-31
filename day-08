@@ -77,6 +77,7 @@ this is called as asynchronous and polling.
       yum: name=git state=present
 
 ANSIBLE-GALAXY:
+it’s a place to store all the ansible roles. we can upload and download our roles in ansible galaxy.
 Ansible Galaxy is a galaxy website where users can share roles and to a command-line tool for installing, creating, and managing roles.
 
 ansible-galaxy init raham
