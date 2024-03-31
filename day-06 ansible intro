@@ -4,7 +4,7 @@ Non-Automated: Server
 To perform end-to-end automation we can use Ansible.
 
 ANSIBLE:
-Ansible is a Configuration Management Tool specialized in Application Deployment which is manage upto 2000 client computers.
+Ansible is a Configuration Management Tool specialized in Automate Application Deployment on multiple servers which is manage upto 2000 client computers.
 its a free and Opensource.
 Configuration: Hardware and Software properties of a server.
 Management: Pkgs update, installing, remove ----
