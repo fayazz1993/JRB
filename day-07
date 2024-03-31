@@ -8,7 +8,7 @@ ansible all -m setup | grep -i pkg
 
 CONDITIONS:
 CLUSTER: Group of servers
-HOMOGENIUS: all servers have having same OS and flavour.
+HOMOGENIUS: all servers have same OS and flavour.
 HETROGENIUS: all servers have different OS and flavour.
 
 used to execute this module when we have different Clusters.
@@ -38,11 +38,11 @@ sed -i 's/present/absent/g' playbbok.yml
       when: ansible_os_family == "Ubuntu"
 
 
-ROLES:
+ANSIBLE ROLES:
 roles is a way of organizing playbooks in a structured format.
 main purpose of roles is to encapsulate the data.
+roles will 'divide the playbook and reduce the length'.
 we can reuse the roles multiple times.
-length of the playbook is decreased.
 it contains on vars, templates, task -----
 in real time we use roles for our daily activities.
 
