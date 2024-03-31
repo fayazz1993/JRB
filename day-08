@@ -29,7 +29,7 @@ Dynamic var: defined outside the playbook and it will be changes.
 ansible-playbook raham.yml --extra-vars "a=git b=maven"
 
 ANSIBLE VAULT:
-it is used to encrypt the files, playbooks ----
+it is used to secure the playbooks and files in encrypted format
 Technique: AES256 (USED BY FACEBOOK)
 vault will store our data very safely and securely.
 if we want to access any data which is in the vault we need to give a password.
