@@ -31,10 +31,8 @@ Working Directory is a folder where we write the code.
 In Working Directory we can't track the files.
 Git works on content base so we cannot track the empty folders.
 2. STAGING AREA:
-here we can track the files.
+In Staging Area, we can track the files.
 its next version of your file.
-
-
 3. REPOSITORY:
 it's a folder where we can store tracked file.
 
