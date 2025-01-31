@@ -15,7 +15,7 @@ os will be on images.
 (SERVER=AMI, CONTAINER=IMAGE)
 
 DOCKER: 
-Its a Containeraisation tool used to create images, run & deploy applications on containers and We used GO laguage to develope the docker, here we write files on YAML.
+Its a Containeraisation tool which is used to create images, run & deploy applications on containers and We used GO laguage to develope the docker, here we write files on YAML.
 Its an free & opensource tool.
 it is platform independent.
 used to create, run & deploy applications on containers.
