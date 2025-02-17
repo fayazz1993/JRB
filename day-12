@@ -2,7 +2,7 @@ High Avaliabilty: more than one server
 why: if one server got deleted then other server will gives the app
 
 DOCKER SWARM:
-its an orchestration tool for containers. 
+its an container orchestration tool. 
 used to manage multiple containers on multiple servers.
 here we create a cluster (group of servers).
 in that clutser we can create same container on multiple servers.
