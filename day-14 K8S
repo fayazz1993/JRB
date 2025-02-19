@@ -154,7 +154,7 @@ without these 4 feilds we cant create a manifest file in k8s.
 
 REPLICASET:
 it will create multiple copies of same pod.
-if we delete one pod automatically it will create new pod.
+if we delete one pod, automatically it will create new pod.
 All the pods will have same config.
 
 
