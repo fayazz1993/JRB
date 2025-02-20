@@ -7,6 +7,7 @@ COPY index.html /var/www/html
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
 
 Index.html: take form w3 schools 
+https://www.w3schools.com/HOWTO/howto_css_form_icon.asp
 
 docker build -t movies:v1 .
 docker run -itd --name movies -p 81:80 movies:v1
