@@ -38,6 +38,7 @@ os level of virtualization : Whatever we have inside our Operating System we hav
 VIRTUALIZATION:
 able to create resouce with our hardware properties.
 apt : Adcance Packaging Tool.
+YUM (Yellowdog Updater Modified): is package management tool for installing, updating, removing, and managing software packages in Red Hat Enterprise Linux.
 
 ARCHITECTURE & COMPONENTS:
 client: it will interact with user
