@@ -131,6 +131,7 @@ RUN apt install apache2 -y
 RUN apt install mysql-server -y
 
 To run: docker build -t raham:v1 .
+build: in docker bild command, build is used to run the Dockerfile
 docker images
 docker run -it --name cont3 raham:v1 
 
