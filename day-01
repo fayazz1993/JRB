@@ -110,6 +110,7 @@ GIT STASH: to hide the all un-comitted files.
 
 GIT PULL: to get the LATEST CODE from Git Hub to git.
 Note: if the content in github and git is same it will not work.
+GIT PULL= GIT FETCH + GIT MERGE
 
 git pull origin master
 
