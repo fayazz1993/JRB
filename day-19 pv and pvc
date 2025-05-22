@@ -1,4 +1,4 @@
-pv:
+pv: persistance volume
 
 Persistent means always available.
 #PVs are independent they can exist even if no pod is using them.
